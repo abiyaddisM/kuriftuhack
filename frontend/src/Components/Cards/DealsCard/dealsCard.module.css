@@ -7,7 +7,7 @@
     border-radius: 23px;
     gap: 200px;
     border-width: 6px;
-    border-color: wheat;
+    border-color: white;
     background-image: url('./bimg.png'); /* Adjust the path if necessary */
     background-size: cover; /* Ensures the image covers the entire div */
     background-position: center; /* Centers the image */
@@ -32,7 +32,7 @@
     align-items: center;
     background-color: white;
     width: 78px;
-    height: 21px;
+    height: 20px;
     border-radius: 18px;
     padding-left:7px ;
     padding-right: 7px;
@@ -58,7 +58,7 @@
     bottom: 0px;
     border-radius: 0px 0px 17px 17px;
     height: 130px;
-    width: 265px;
+    width: 254px;
     align-items: center;
     justify-content: center;
 
@@ -72,8 +72,8 @@
     bottom: 22px;
     left: 10px;
     gap: 0px;
-    line-height: 1px;
     
+
     
 
     
@@ -107,9 +107,12 @@
     backdrop-filter: blur(4px); 
     background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
     color: #4E4E4E;
+    font-size: 12px;
+    font-weight: bold;
     position: absolute;
     bottom: 22px;
     right: 10px;
+    
     
 }
     

@@ -14,7 +14,7 @@ const Layout = () => {
         </div>
 
       {/* Main Content Area */}
-      <main className="flex-grow container mx-auto px-4 py-8">
+      <main className="flex-grow container mx-auto px-4 py-8 mt-20">
         <Outlet /> {/* Renders the nested route components */}
       </main>
     </div>
