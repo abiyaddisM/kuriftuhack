@@ -18,12 +18,18 @@
     gap: 20px;
 
 }
+
+.grad{
+    width: fit-content;
+    background: linear-gradient(90deg, #DF7945, #FFBC9A);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
 .head {
     font-family: "Anton", sans-serif;
     font-size: 36px;
-    background: linear-gradient(90deg, #DF7945, #ffffff2b);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+   
 }
 .deals{
     display: flex;

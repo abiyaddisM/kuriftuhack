@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #F9EEE2;
+
+}
+
+.key{
+    display: flex;
+    border-style: solid;
+    border-width: 6px;
+    border-color: white;
+    width: 327px;
+    height: 493px;
+    justify-content: center;
+    gap: 77px;
+    padding: 12px;
+    border-radius: 20px 20px 0px 0px;
+   
+
+}
+
+.number{
+    transform: rotate(90deg); /* Rotates the element 180 degrees */
+    
+
+}
+
+.name{
+    
+
+}
