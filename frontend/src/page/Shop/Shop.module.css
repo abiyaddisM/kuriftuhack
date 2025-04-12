@@ -1,0 +1,32 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background-color: #F9EEE2;
+
+   
+
+}
+
+.p1{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+    gap: 20px;
+
+}
+.head {
+    font-family: "Anton", sans-serif;
+    font-size: 36px;
+    background: linear-gradient(90deg, #DF7945, #ffffff2b);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.deals{
+    display: flex;
+    gap: 20px;
+    
+}
