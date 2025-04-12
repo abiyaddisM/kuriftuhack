@@ -1,0 +1,116 @@
+.container{
+    border-style: solid;
+    display: flex;
+    flex-direction: column;
+    width: 265px;
+    height: 358px;
+    border-radius: 23px;
+    gap: 200px;
+    border-width: 6px;
+    border-color: wheat;
+    background-image: url('./bimg.png'); /* Adjust the path if necessary */
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image */
+    position: relative;
+    font-family: "Inter", sans-serif;
+    
+   
+    
+}
+
+
+
+.one{
+    display: flex;
+}
+
+.pts{
+    font-size: 10px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 78px;
+    height: 21px;
+    border-radius: 18px;
+    padding-left:7px ;
+    padding-right: 7px;
+    padding-top:4px ;
+    padding-bottom: 4px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+
+}
+
+.two{
+    display: flex;
+    gap: 45px;
+    background-color: transparent;
+    backdrop-filter: blur(12.9px);
+    background: linear-gradient(
+        to top, 
+        rgba(255, 255, 255, 0) 10%, /* Light color at the bottom */
+        rgba(255, 250, 250, 0) 30%  /* Transparent color at the top */
+    );
+    position: absolute;
+    bottom: 0px;
+    border-radius: 0px 0px 17px 17px;
+    height: 130px;
+    width: 265px;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    position:absolute;
+    bottom: 22px;
+    left: 10px;
+    gap: 0px;
+    line-height: 1px;
+    
+    
+
+    
+ 
+    
+    
+}
+.location{
+    font-size: 16px;
+    font-family: "Anton";
+    font-weight: normal;
+    color: white;
+    letter-spacing: 0.2px;
+    
+
+   
+}
+
+.date{
+    font-size: 11px;
+    font-family: "inter", sans-serif;
+    color: white;
+
+}
+
+.buy{
+    width: 69px;
+    height: 29px;
+    border-radius: 8px;
+    border-style: none;
+    backdrop-filter: blur(4px); 
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    color: #4E4E4E;
+    position: absolute;
+    bottom: 22px;
+    right: 10px;
+    
+}
+    
+    
