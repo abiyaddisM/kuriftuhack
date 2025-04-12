@@ -1,22 +1,19 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-import DealsCard from './Components/Cards/DealsCard/dealsCard'
+import { Button } from "@/components/ui/button"
+import CoinInfo from "./components/CoinInfo"
+import Dashboard from "./page/Dashboard"
 
 function App() {
-  return(
-    <>
-    <DealsCard/>
-   </>
+  return (
+    <div className="flex items-center justify-center h-screen bg-primary relative p-8">
+      {/* <Button>Click me</Button> */}
+      {/* <CoinInfo amount={3000}/> */}
+      {/* navigation bar */}
+      <div className="p-10 ">
 
+      </div>
+      <Dashboard/>
+    </div>
   )
- 
-    
-
-   
-  
-  
 }
 
 export default App
